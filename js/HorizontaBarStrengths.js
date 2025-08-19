@@ -32,10 +32,10 @@ var pieChart1 = new Chart(ctx1, {
     },
     data: {
         labels: [
-            "C# - Desktop",
+            ".NET",
             "RailML",
+            "Team Leadership",
             "Database",
-            "C#- Asp .NET Core",
             "OPC",
             "JAVA",
         ],

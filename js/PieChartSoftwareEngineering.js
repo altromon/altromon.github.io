@@ -26,7 +26,7 @@ var pieChart1 = new Chart(ctx1, {
         ],
         datasets: [
             {
-                data: [200, 200, 250, 250, 100],
+                data: [250, 250, 250, 200, 100],
                 borderWidth: 0,
                 backgroundColor: [
                     Magenta,
