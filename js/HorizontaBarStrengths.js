@@ -9,15 +9,15 @@ var pieChart1 = new Chart(ctx1, {
         },
         tooltips: {
             callbacks: {
-               label: function(tooltipItem) {
-                      return tooltipItem.xLabel;
-               }
+                label: function (tooltipItem) {
+                    return tooltipItem.xLabel;
+                }
             }
         },
         scales: {
             xAxes: [{
                 gridLines: {
-                    display:false
+                    display: false
                 },
                 ticks: {
                     display: false
@@ -25,8 +25,8 @@ var pieChart1 = new Chart(ctx1, {
             }],
             yAxes: [{
                 gridLines: {
-                    display:false
-                }   
+                    display: false
+                }
             }]
         }
     },
@@ -37,11 +37,11 @@ var pieChart1 = new Chart(ctx1, {
             "Team Leadership",
             "Database",
             "OPC",
-            "JAVA",
+            "AI-SDLC",
         ],
         datasets: [
             {
-                data: [950, 800, 700, 400, 300, 200, 0],
+                data: [950, 800, 700, 400, 300, 850, 0],
                 borderWidth: 0,
                 backgroundColor: [
                     Magenta,
